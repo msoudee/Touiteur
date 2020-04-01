@@ -550,9 +550,6 @@
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\favorite.png">
-      <PackagePath>Assets\favorite.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -564,18 +561,6 @@
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\pencil.png">
-      <PackagePath>Assets\pencil.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\reply.png">
-      <PackagePath>Assets\reply.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\retweet.png">
-      <PackagePath>Assets\retweet.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\search.png">
-      <PackagePath>Assets\search.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>

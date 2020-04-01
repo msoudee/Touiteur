@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:utils="clr-namespace:Module5TP.Utils"
              mc:Ignorable="d"
              x:Class="Module5TP.MainPage">
 
@@ -28,9 +29,9 @@
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <ImageButton Grid.Row="0" Grid.Column="0" Source="pencil.png" WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent"/>
+                <ImageButton Grid.Row="0" Grid.Column="0" Source="{utils:ImageFromResource Module5TP.Images.pencil.png}" WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent"/>
                 <Label Grid.Row="0" Grid.Column="1" TextColor="White" Text="Accueil" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-                <ImageButton Grid.Row="0" Grid.Column="2" Source="search.png" WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent"/>
+                <ImageButton Grid.Row="0" Grid.Column="2" Source="{utils:ImageFromResource Module5TP.Images.search.png}" WidthRequest="25" HeightRequest="25" BackgroundColor="Transparent"/>
             </Grid>
         </ContentView>
 
@@ -90,9 +91,9 @@
                                 <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod convallis dolor. Quisque ultricies porttitor nunc venenatis facilisis." Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"/>
                             </Grid>
                         </ContentView>
-                        <ImageButton Grid.Row="1" Grid.Column="0" Source="reply.png" BackgroundColor="Transparent" WidthRequest="25" HeightRequest="25"/>
-                        <ImageButton Grid.Row="1" Grid.Column="1" Source="retweet.png" BackgroundColor="Transparent" WidthRequest="25" HeightRequest="25"/>
-                        <ImageButton Grid.Row="1" Grid.Column="2" Source="favorite.png" BackgroundColor="Transparent" WidthRequest="25" HeightRequest="25"/>
+                        <ImageButton Grid.Row="1" Grid.Column="0" Source="{utils:ImageFromResource Module5TP.Images.reply.png}" BackgroundColor="Transparent" WidthRequest="25" HeightRequest="25"/>
+                        <ImageButton Grid.Row="1" Grid.Column="1" Source="{utils:ImageFromResource Module5TP.Images.retweet.png}" BackgroundColor="Transparent" WidthRequest="25" HeightRequest="25"/>
+                        <ImageButton Grid.Row="1" Grid.Column="2" Source="{utils:ImageFromResource Module5TP.Images.favorite.png}" BackgroundColor="Transparent" WidthRequest="25" HeightRequest="25"/>
                     </Grid>
                 </ContentView>
             </ScrollView>

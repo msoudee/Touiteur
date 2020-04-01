@@ -1,3 +1,11 @@
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.Android.dll
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.Android.pdb
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp.apk
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp.aab
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp-Signed.aab
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp-Signed.apk
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.dll
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.pdb
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\build.props
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\adb.props
@@ -31,14 +39,6 @@ C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\R.txt
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\R.cs.flag
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\Module5TP.Android.csproj.CoreCompileInputs.cache
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.Android.dll
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.Android.pdb
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp.apk
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp.aab
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp-Signed.aab
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\com.companyname.module5tp-Signed.apk
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.dll
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\bin\Debug\Module5TP.pdb
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\XamlC.stamp
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\Module5TP.Android.csproj.CopyComplete
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\Module5TP.Android.dll
@@ -475,8 +475,3 @@ C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\search.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\favorite.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\pencil.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\reply.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\retweet.png

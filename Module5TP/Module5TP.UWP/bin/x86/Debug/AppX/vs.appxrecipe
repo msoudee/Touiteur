@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-31T12:28:52.098</Modified>
+      <Modified>2020-04-01T13:32:39.009</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\Module5TP.UWP.exe">
       <PackagePath>entrypoint\Module5TP.UWP.exe</PackagePath>
-      <Modified>2020-03-31T12:28:47.808</Modified>
+      <Modified>2020-04-01T13:32:35.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\bin\Debug\netstandard2.0\Module5TP.dll">
       <PackagePath>Module5TP.dll</PackagePath>
-      <Modified>2020-03-31T11:25:50.112</Modified>
+      <Modified>2020-04-01T13:32:29.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -733,10 +733,6 @@
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-12-09T22:29:32.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\favorite.png">
-      <PackagePath>Assets\favorite.png</PackagePath>
-      <Modified>2020-03-31T10:02:30.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -752,22 +748,6 @@
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-31T09:50:26.541</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\pencil.png">
-      <PackagePath>Assets\pencil.png</PackagePath>
-      <Modified>2020-03-31T10:02:30.305</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\reply.png">
-      <PackagePath>Assets\reply.png</PackagePath>
-      <Modified>2020-03-31T10:02:30.308</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\retweet.png">
-      <PackagePath>Assets\retweet.png</PackagePath>
-      <Modified>2020-03-31T10:02:30.309</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\search.png">
-      <PackagePath>Assets\search.png</PackagePath>
-      <Modified>2020-03-31T10:02:30.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
@@ -899,15 +879,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-03-31T12:28:47.663</Modified>
+      <Modified>2020-04-01T13:32:35.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-31T12:28:47.664</Modified>
+      <Modified>2020-04-01T13:32:35.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-31T12:28:47.664</Modified>
+      <Modified>2020-04-01T13:32:35.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -923,11 +903,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-31T12:28:49.589</Modified>
+      <Modified>2020-04-01T13:32:36.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\bin\x86\Debug\Core\Module5TP.UWP.exe">
       <PackagePath>Module5TP.UWP.exe</PackagePath>
-      <Modified>2020-03-31T12:28:52.078</Modified>
+      <Modified>2020-04-01T13:32:38.989</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

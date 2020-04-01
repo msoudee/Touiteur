@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Module5TP
@@ -29,23 +30,33 @@ namespace Module5TP
             string mdp = this.motDePasse.Text;
             bool memo = this.memoriserInfos.IsToggled;
 
-            if (id != null && id.Length > 3 && mdp != null && mdp.Length > 6)
+            var current = Connectivity.NetworkAccess;
+
+            if (current == NetworkAccess.Internet)
             {
-                if (twitterService.authenticate(id, mdp))
+                if (id != null && id.Length > 3 && mdp != null && mdp.Length > 6)
                 {
-                    this.errorMessage.IsVisible = false;
-                    this.formulaire.IsVisible = false;
-                    this.listeTweet.IsVisible = true;
+                    if (twitterService.authenticate(id, mdp))
+                    {
+                        this.errorMessage.IsVisible = false;
+                        this.formulaire.IsVisible = false;
+                        this.listeTweet.IsVisible = true;
+                    }
+                    else
+                    {
+                        this.errorMessage.Text = "L'identifiant ou le mot de passe est incorrect";
+                        this.errorMessage.IsVisible = true;
+                    }
                 }
                 else
                 {
-                    this.errorMessage.Text = "L'identifiant ou le mot de passe est incorrect";
+                    this.errorMessage.Text = "L'identifiant doit faire plus de 3 caractères et le mot de passe doit faire plus de 6 carctères";
                     this.errorMessage.IsVisible = true;
                 }
             }
             else
             {
-                this.errorMessage.Text = "L'identifiant doit faire plus de 3 caractères et le mot de passe doit faire plus de 6 carctères";
+                this.errorMessage.Text = "Vous n'êtes pas connecté à internet";
                 this.errorMessage.IsVisible = true;
             }
         }
