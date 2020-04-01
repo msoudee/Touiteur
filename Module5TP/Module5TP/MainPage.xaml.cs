@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Module5TP.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,9 +14,13 @@ namespace Module5TP
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        private TwitterService twitterService;
+
         public MainPage()
         {
             InitializeComponent();
+
+            twitterService = new TwitterService();
         }
 
         public void ConnectionClicked(object sender, EventArgs e)
@@ -24,9 +29,9 @@ namespace Module5TP
             string mdp = this.motDePasse.Text;
             bool memo = this.memoriserInfos.IsToggled;
 
-            if(checkString(id) && checkString(mdp))
+            if (id != null && id.Length > 3 && mdp != null && mdp.Length > 6)
             {
-                if(mdp.Length >= 6)
+                if (twitterService.authenticate(id, mdp))
                 {
                     this.errorMessage.IsVisible = false;
                     this.formulaire.IsVisible = false;
@@ -34,18 +39,15 @@ namespace Module5TP
                 }
                 else
                 {
+                    this.errorMessage.Text = "L'identifiant ou le mot de passe est incorrect";
                     this.errorMessage.IsVisible = true;
                 }
             }
             else
             {
+                this.errorMessage.Text = "L'identifiant doit faire plus de 3 caractères et le mot de passe doit faire plus de 6 carctères";
                 this.errorMessage.IsVisible = true;
             }
-        }
-
-        private bool checkString(string str)
-        {
-            return str != null && str.Length >= 3;
         }
     }
 }
