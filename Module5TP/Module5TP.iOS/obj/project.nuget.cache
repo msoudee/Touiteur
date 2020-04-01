@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sNqexMyiC5a87RXqM7ZPMQ8R4yqvMo6GZK9j7uISOQ3HVBV5nFVnI9Vvtrk/+xyfuB/BzeLCemxYsfwFt2nLwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Maxence\\Desktop\\XAM\\Module5TP\\Module5TP\\Module5TP.iOS\\Module5TP.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maxence\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

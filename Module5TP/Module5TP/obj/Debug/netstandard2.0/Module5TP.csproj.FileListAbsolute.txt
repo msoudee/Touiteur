@@ -1,0 +1,14 @@
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\Module5TP.csprojAssemblyReference.cache
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\Module5TP.csproj.CoreCompileInputs.cache
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\Module5TP.AssemblyInfoInputs.cache
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\Module5TP.AssemblyInfo.cs
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\bin\Debug\netstandard2.0\Module5TP.deps.json
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\bin\Debug\netstandard2.0\Module5TP.dll
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\bin\Debug\netstandard2.0\ref\Module5TP.dll
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\bin\Debug\netstandard2.0\Module5TP.pdb
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\Module5TP.dll
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\ref\Module5TP.dll
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP\obj\Debug\netstandard2.0\Module5TP.pdb
