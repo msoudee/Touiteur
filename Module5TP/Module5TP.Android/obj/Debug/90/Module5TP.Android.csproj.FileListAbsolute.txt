@@ -475,8 +475,8 @@ C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\images\favorite.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\images\pencil.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\images\reply.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\images\retweet.png
-C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\images\search.png
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\favorite.png
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\pencil.png
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\reply.png
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\retweet.png
+C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.Android\obj\Debug\90\res\drawable\search.png

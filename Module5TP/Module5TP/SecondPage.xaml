@@ -26,7 +26,7 @@
 
         <ContentView x:Name="listeTweet" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
             <ScrollView HorizontalOptions="FillAndExpand">
-                <ListView x:Name="maListeDeTweet">
+                <ListView x:Name="maListeDeTweet" RowHeight="100">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
