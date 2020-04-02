@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:utils="clr-namespace:Module5TP.Utils"
+             xmlns:views="clr-namespace:Module5TP.Views"
+             mc:Ignorable="d"
+             x:Class="Module5TP.SecondPage">
+
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+
+        <ContentView BackgroundColor="#58B0F0" HorizontalOptions="FillAndExpand" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+            <views:TitleBarView />
+        </ContentView>
+
+        <ContentView x:Name="listeTweet" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+            <ScrollView HorizontalOptions="FillAndExpand">
+                <ListView x:Name="maListeDeTweet">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid  HorizontalOptions="FillAndExpand" Margin="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="25"/>
+                                        <RowDefinition/>
+                                        <RowDefinition Height="20"/>
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Source="https://picsum.photos/50/50/?random"/>
+
+                                    <Label Text="{Binding NomUtilisateur}" Grid.Row="0" Grid.Column="1" TextColor="Gray"/>
+                                    <Label Text="{Binding PseudoUtilisateur}" Grid.Row="0" Grid.Column="2" TextColor="Gray"/>
+                                    <Label Text="{Binding DateCreation}" Grid.Row="0" Grid.Column="3" TextColor="Gray"/>
+
+                                    <Label Text="{Binding Texte}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" TextColor="Black"/>
+
+                                    <ImageButton Grid.Row="2" Grid.Column="1" Source="reply.png" BackgroundColor="Transparent" WidthRequest="15" HeightRequest="15"/>
+                                    <ImageButton Grid.Row="2" Grid.Column="2" Source="retweet.png" BackgroundColor="Transparent" WidthRequest="15" HeightRequest="15"/>
+                                    <ImageButton Grid.Row="2" Grid.Column="3" Source="favorite.png" BackgroundColor="Transparent" WidthRequest="15" HeightRequest="15"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </ContentView>
+
+        <ContentView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand">
+            <views:BottomMenuView />
+        </ContentView>
+    </Grid>
+
+</ContentPage>

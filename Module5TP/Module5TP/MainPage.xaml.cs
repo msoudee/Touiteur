@@ -1,10 +1,6 @@
 ﻿using Module5TP.Services;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -30,17 +26,13 @@ namespace Module5TP
             string mdp = this.motDePasse.Text;
             bool memo = this.memoriserInfos.IsToggled;
 
-            var current = Connectivity.NetworkAccess;
-
-            if (current == NetworkAccess.Internet)
+            if (Connectivity.NetworkAccess == NetworkAccess.Internet)
             {
                 if (id != null && id.Length > 3 && mdp != null && mdp.Length > 6)
                 {
                     if (twitterService.authenticate(id, mdp))
                     {
-                        this.errorMessage.IsVisible = false;
-                        this.formulaire.IsVisible = false;
-                        this.listeTweet.IsVisible = true;
+                        this.afficherPageSuivante();
                     }
                     else
                     {
@@ -59,6 +51,11 @@ namespace Module5TP
                 this.errorMessage.Text = "Vous n'êtes pas connecté à internet";
                 this.errorMessage.IsVisible = true;
             }
+        }
+
+        async void afficherPageSuivante()
+        {
+            await Navigation.PushAsync(new SecondPage());
         }
     }
 }

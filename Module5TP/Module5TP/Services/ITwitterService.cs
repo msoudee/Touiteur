@@ -1,6 +1,7 @@
 ﻿using Module5TP.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace Module5TP.Services
@@ -9,6 +10,6 @@ namespace Module5TP.Services
     {
         bool authenticate(string user, string password);
 
-        List<Tweet> getTweets(string str);
+        ObservableCollection<Tweet> getTweets(string str);
     }
 }

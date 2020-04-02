@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,7 +17,7 @@ namespace Module5TP.Utils
                 return null;
             }
 
-            ImageSource imageSource = ImageSource.FromResource(Source, typeof(ImageFromResource).GetTypeInfo().Assembly);
+            var imageSource = ImageSource.FromResource(Source, typeof(ImageFromResource).GetTypeInfo().Assembly);
 
             return imageSource;
         }

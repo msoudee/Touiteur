@@ -658,6 +658,21 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\favorite.png">
+      <PackagePath>favorite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\pencil.png">
+      <PackagePath>pencil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\reply.png">
+      <PackagePath>reply.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\retweet.png">
+      <PackagePath>retweet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\search.png">
+      <PackagePath>search.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maxence\Desktop\XAM\Module5TP\Module5TP\Module5TP.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

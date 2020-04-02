@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Module5TP.Views.BottomMenuView">
+    <ContentView.Content>
+        <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
+            <Label TextColor="#58B0F0" Text="Fil" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label TextColor="Black" Text="Notification" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label TextColor="Black" Text="Messages" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label TextColor="Black" Text="Moi" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
